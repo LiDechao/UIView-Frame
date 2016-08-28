@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "IDCViewFrame"
-  s.version          = "1.0.0"
+  s.version          = "1.1.0"
   s.summary          = "A view framework used on iOS."
   s.description      = <<-DESC
                        It is a marquee view used on iOS, which implement by Objective-C.

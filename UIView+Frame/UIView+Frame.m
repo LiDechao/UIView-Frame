@@ -10,7 +10,7 @@
 @implementation UIView (Frame)
 
 - (CGFloat)x {
-    return self.frame.origin.x;
+    return CGRectGetMinX(self.frame);
 }
 
 - (void)setX:(CGFloat)x {
@@ -18,7 +18,7 @@
 }
 
 - (CGFloat)y {
-    return self.frame.origin.y;
+    return CGRectGetMinY(self.frame);
 }
 
 - (void)setY:(CGFloat)y {
@@ -26,7 +26,7 @@
 }
 
 - (CGFloat)width {
-    return self.frame.size.width;
+    return CGRectGetWidth(self.frame);
 }
 
 - (void)setWidth:(CGFloat)width {
@@ -34,7 +34,7 @@
 }
 
 - (CGFloat)height {
-    return self.frame.size.height;
+    return CGRectGetHeight(self.frame);
 }
 
 - (void)setHeight:(CGFloat)height {

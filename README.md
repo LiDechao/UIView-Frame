@@ -7,7 +7,7 @@ Use the [CocoaPods](https://cocoapods.org/).
 In your Podfile
 
 ```
-pod 'IDCViewFrame', '~> 1.0.0'
+pod 'IDCViewFrame', '~> 1.1.0'
 ```
 
 Suggest put the header file to PCH file inside.
